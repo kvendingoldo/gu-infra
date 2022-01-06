@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS users;
-CREATE DATABASE IF NOT EXISTS locations;
+CREATE DATABASE IF NOT EXISTS user;
+CREATE DATABASE IF NOT EXISTS location;
 
-GRANT ALL on users.* to gu_user@'%';
-GRANT ALL on locations.* to gu_user@'%';
+GRANT ALL on user.* to gu_user@'%';
+GRANT ALL on location.* to gu_user@'%';
